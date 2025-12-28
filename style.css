@@ -1,0 +1,140 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  justify-items: center;
+  gap: 20px;
+  padding: 20px;
+} 
+
+.headerdiv {
+  text-align: center;
+}
+
+.headerdiv h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.headerdiv p {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.formdiv {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.formdiv form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  justify-content: center; 
+}
+
+/*.formdiv label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+} */
+
+.formdiv input,
+.formdiv select {
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formdiv button {
+  padding: 8px 16px;
+  background: #0078d7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formdiv button:hover {
+  background: #005fa3;
+}
+
+
+.candidatediv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.candidatediv > div {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.candidatediv h1 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.candidatediv p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+
+.candidatediv ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+.candidatediv li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eef2f7;
+  margin-bottom: 6px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.candidatediv li button {
+  background: #d9534f;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.candidatediv li button:hover {
+  background: #b52b27;
+}
+  

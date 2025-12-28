@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vote counting</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+  <div class="fullcontainer">
+    <div class="headerdiv">
+    <h1>Class Monitor Vote</h1>
+ <p id = "total_count">Total Votes : 0</p>
+    </div>
+    <div class="formdiv">
+ <form>
+    <label> Voter Name:
+   <input type="text" id="voter_name" name="voter_name">
+    </label>
+    <label> Candidate:
+   <select id="candidate" name="candidate">
+     <option value="ajay">ajay</option>
+     <option value="yash">yash</option>
+     <option value="raina">raina</option>
+   </select>
+    </label>
+   <button type="submit">vote</button>
+ </form>
+ </div>
+ 
+ <div class="candidatediv">
+ <div id="ajay">
+   <h1>ajay</h1>
+   <p>total votes : 0</p>
+   <ul>
+     
+   </ul>
+ </div>
+ 
+ <div id="yash">
+   <h1>yash</h1>
+   <p>total votes : 0</p>
+   <ul>
+     
+   </ul>
+ </div>
+ 
+ <div id="raina">
+   <h1>raina</h1>
+   <p>total votes : 0</p>
+   <ul>
+     
+   </ul>
+ </div>
+ </div> 
+</div>
+        
+ <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+ <script src="voting_project.js"></script>
+
+</body>
+</html>
