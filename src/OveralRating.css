@@ -1,0 +1,17 @@
+.overalrating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.overalrating h3 {
+    color: brown;
+}
+
+.overalrating div {
+    
+    font-size: 18px;
+    color: blueviolet;
+}
